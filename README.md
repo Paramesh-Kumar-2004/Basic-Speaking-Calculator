@@ -1,3 +1,14 @@
+Speaking Calculator
+  This project is a voice-interactive calculator created in Python using the pyttsx3 library for text-to-speech functionality. It allows users to input two numbers and select an arithmetic operator. The calculator not only performs the calculations but also speaks the input and results.
+
+Features:
+  1.Interactive voice prompts and responses.
+  2.Supports basic arithmetic operations: addition, subtraction, multiplication, division, modulus, and integer division.
+  3.Text-to-speech support for enhanced user interaction.
+
+
+
+
 Explanation of the Speaking Calculator Code:
 
 This Python script creates a voice-interactive calculator using the pyttsx3 library, which allows the program to speak the input and output.
@@ -23,3 +34,20 @@ This Python script creates a voice-interactive calculator using the pyttsx3 libr
 
   6.Error Handling:
     i) If the user enters an invalid operator, the program prints and speaks an error message: "You Entered Invalid Operators. Please Try Again."
+
+
+How to Use:
+  1.Clone the repository to your local machine.
+  2.Ensure Python and the required libraries are installed (pyttsx3).
+  3.Run the script:
+      python speaking_calculator.py
+  4.Follow the spoken instructions and enter your numbers and operator.
+
+
+  Prerequisites:
+    1.Python 3.x
+    2.pyttsx3 library (Install with pip install pyttsx3)
+
+  Future Enhancements:
+    1.Add more mathematical operations.
+    2.Improve voice interaction with more detailed instructions and error handling.
